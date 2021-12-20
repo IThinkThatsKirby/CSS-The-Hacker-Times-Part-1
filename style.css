@@ -1,1 +1,44 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+nav li {
+    display:inline-block;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 1em 0.5em;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+main img {
+    display:block;
+    margin: auto;
+    width:95%;
+}
+main p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 90%;
+}
+.more-articles {
+    display:flex;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    padding: 1em 0.5em;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    background: white;
+}
+.more-articles section img{
+    display:block;
+    margin: auto;
+    width:66%;
+}
+.more-articles section p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 3em;
+    margin-right: 3em;
+    width: 90%;
+}
