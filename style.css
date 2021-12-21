@@ -1,25 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
 
-header h1{
+html {
+    scroll-behavior: auto;
+}
+header h1 {
     text-align: center;
     margin: auto;
     width:auto;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: auto;
 }
-nav{
+header {
+    text-align: center;
+    display: inline-block;
+    position:sticky;
+    top:0;
+    z-index: 222;
+}
+nav {
     text-align: center;
     position: sticky;
+    top:0;
+    background-color: whitesmoke;
+    z-index: 1;
 }
+
+
 nav li {
     display:inline-block;
     list-style-type: none;
     border-top: 1px solid;
     border-bottom: 1px solid;
+    border-color: gray;
     padding: 1em 0.5em;
     margin: auto;
-    top: 0;
-    background: white;
+    top: 1em;
+    background: whitesmoke;
 }
 main img {
     display:block;
@@ -34,7 +50,9 @@ main p {
     width: 90%;
 }
 .more-articles {
-    display:flex;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     border-top: 1px solid;
     border-bottom: 1px solid;
     padding: 1em 0.5em;
@@ -42,6 +60,11 @@ main p {
     position: sticky;
     top: 0;
     background: white;
+}
+.more-articles section h4 {
+    position: relative;
+    text-align: center;
+    padding-right: auto;
 }
 .more-articles section img{
     display:block;
